@@ -26,6 +26,7 @@ class _CHATState extends State<CHAT> {
           padding: const EdgeInsets.all(10.0),
           child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 TextField(
                   decoration: InputDecoration(
